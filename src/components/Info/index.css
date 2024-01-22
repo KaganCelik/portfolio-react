@@ -1,0 +1,52 @@
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/originals/07/a7/1c/07a71cbc727d56b687f934ea64fe8426.jpg);
+    background-size: cover;
+}
+
+.info-container h1 {
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.info-profile {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.info-profile svg {
+    border-radius: 250px;
+}
+
+.info-text {
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.info-text p {
+    color: black;
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.school-icon,
+.code-icon,
+.comp-icon,
+.work-icon {
+    margin-right: 10px;
+}
+
+@media (max-width: 1000px) {
+    .info-profile {
+        flex-direction: column;
+    }
+}
